@@ -1,0 +1,19 @@
+{
+	"name": "roboticmacros",
+	"description": "Cloud Functions for Firebase",
+	"scripts": {
+		"record": "node record.js",
+		"play": "npm run shell"
+	},
+	"engines": {
+		"node": "14"
+	},
+	"main": "index.js",
+	"dependencies": {
+		"global-mouse-events": "^1.0.7",
+		"iohook": "^0.6.6",
+		"robotjs": "git+https://github.com/Kyusung4698/robotjs.git",
+		"node-record-lpcm16": "^1.0.1"
+	},
+	"private": true
+}
